@@ -1,0 +1,42 @@
+{
+  "name": "advanced-react",
+  "version": "1.0.0",
+  "description": "Advanced React",
+  "main": "lib/server.js",
+  "repository": "https://github.com/khpatel4991/full-stack",
+  "author": "Kashyap Patel",
+  "license": "MIT",
+  "scripts": {
+    "dev": "pm2 start lib/server.js --interpreter babel-node --watch"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "eslint": "^5.1.0",
+    "eslint-plugin-react": "^7.10.0"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.0.0-beta.53",
+    "@babel/core": "^7.0.0-beta.53",
+    "@babel/node": "^7.0.0-beta.53",
+    "@babel/preset-env": "^7.0.0-beta.53",
+    "@babel/preset-react": "^7.0.0-beta.53",
+    "@babel/preset-stage-2": "^7.0.0-beta.53",
+    "cors": "^2.8.4",
+    "ejs": "^2.6.1",
+    "fastify": "^1.8.0",
+    "fastify-helmet": "^1.0.3",
+    "fastify-response-time": "^1.0.4",
+    "fastify-static": "^0.12.0",
+    "pm2": "^3.0.0",
+    "point-of-view": "^1.1.0"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      ["@babel/preset-stage-2", {
+        "decoratorsLegacy": true
+      }],
+      "@babel/preset-react"
+    ]
+  }
+}
