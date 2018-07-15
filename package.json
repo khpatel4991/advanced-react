@@ -43,6 +43,11 @@
     "react-dom": "^16.4.1",
     "webpack": "^4.16.0"
   },
+  "jest": {
+    "modulePaths": [
+      "lib"
+    ]
+  },
   "babel": {
     "presets": [
       "@babel/preset-env",
