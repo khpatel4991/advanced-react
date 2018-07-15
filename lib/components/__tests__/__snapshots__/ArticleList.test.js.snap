@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleList renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ArticleList
+    articles={
+      Object {
+        "a": Object {
+          "body": "b1",
+          "date": "d1",
+          "id": "a",
+          "title": "t1",
+        },
+        "b": Object {
+          "body": "b2",
+          "date": "d2",
+          "id": "b",
+          "title": "t2",
+        },
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <ArticleContainer
+          article={
+            Object {
+              "body": "b1",
+              "date": "d1",
+              "id": "a",
+              "title": "t1",
+            }
+          }
+        />,
+        <ArticleContainer
+          article={
+            Object {
+              "body": "b2",
+              "date": "d2",
+              "id": "b",
+              "title": "t2",
+            }
+          }
+        />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "a",
+        "nodeType": "class",
+        "props": Object {
+          "article": Object {
+            "body": "b1",
+            "date": "d1",
+            "id": "a",
+            "title": "t1",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "b",
+        "nodeType": "class",
+        "props": Object {
+          "article": Object {
+            "body": "b2",
+            "date": "d2",
+            "id": "b",
+            "title": "t2",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <ArticleContainer
+            article={
+              Object {
+                "body": "b1",
+                "date": "d1",
+                "id": "a",
+                "title": "t1",
+              }
+            }
+          />,
+          <ArticleContainer
+            article={
+              Object {
+                "body": "b2",
+                "date": "d2",
+                "id": "b",
+                "title": "t2",
+              }
+            }
+          />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "a",
+          "nodeType": "class",
+          "props": Object {
+            "article": Object {
+              "body": "b1",
+              "date": "d1",
+              "id": "a",
+              "title": "t1",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "b",
+          "nodeType": "class",
+          "props": Object {
+            "article": Object {
+              "body": "b2",
+              "date": "d2",
+              "id": "b",
+              "title": "t2",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
