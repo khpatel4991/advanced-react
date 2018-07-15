@@ -10,7 +10,8 @@
     "dev": "NODE_PATH=./lib pm2 start lib/server.js --interpreter babel-node --watch",
     "webpack": "webpack -wd",
     "test": "jest --watch",
-    "verify-tests": "jest --coverage"
+    "verify-tests": "jest --coverage",
+    "build-webpack": "webpack -p"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.6",
