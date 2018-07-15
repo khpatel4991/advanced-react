@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Advanced React",
   "main": "lib/server.js",
-  "repository": "https://github.com/khpatel4991/full-stack",
+  "repository": "https://github.com/khpatel4991/advanced-react",
   "author": "Kashyap Patel",
   "license": "MIT",
   "scripts": {
