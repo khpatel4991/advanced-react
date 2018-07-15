@@ -11,7 +11,8 @@
     "webpack": "webpack -wd",
     "test": "jest --watch",
     "verify-tests": "jest --coverage",
-    "build-webpack": "webpack -p"
+    "build-webpack": "webpack -p",
+    "build-node": "babel lib -d build --copy-files"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.6",
@@ -56,14 +57,19 @@
   },
   "babel": {
     "presets": [
-      "@babel/preset-env",
       "@babel/preset-react",
       [
-        "@babel/preset-stage-2",
+        "@babel/preset-env",
         {
-          "decoratorsLegacy": true
+          "targets": {
+            "node": "current"
+          }
         }
       ]
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties",
+      "@babel/plugin-proposal-object-rest-spread"
     ]
   }
 }
