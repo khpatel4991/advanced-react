@@ -134,15 +134,15 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n
 
 /***/ }),
 
-/***/ "./lib/components/Index.js":
-/*!*********************************!*\
-  !*** ./lib/components/Index.js ***!
-  \*********************************/
+/***/ "./lib/renderers/dom.js":
+/*!******************************!*\
+  !*** ./lib/renderers/dom.js ***!
+  \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar _react = _interopRequireDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\n\nvar _reactDom = _interopRequireDefault(__webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\"));\n\nvar _App = _interopRequireDefault(__webpack_require__(/*! ./App */ \"./lib/components/App.js\"));\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n_reactDom.default.hydrate(_react.default.createElement(_App.default, null), document.getElementById('root'));//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9saWIvY29tcG9uZW50cy9JbmRleC5qcy5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy9saWIvY29tcG9uZW50cy9JbmRleC5qcz8wZTk0Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5pbXBvcnQgUmVhY3RET00gZnJvbSAncmVhY3QtZG9tJztcblxuaW1wb3J0IEFwcCBmcm9tICcuL0FwcCc7XG5cblJlYWN0RE9NLmh5ZHJhdGUoPEFwcCAvPiwgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ3Jvb3QnKSk7XG4iXSwibWFwcGluZ3MiOiI7O0FBQUE7QUFDQTtBQUFBO0FBQ0E7QUFDQTtBQUNBOzs7QUFDQSIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./lib/components/Index.js\n");
+eval("\n\nvar _react = _interopRequireDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\n\nvar _reactDom = _interopRequireDefault(__webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\"));\n\nvar _App = _interopRequireDefault(__webpack_require__(/*! components/App */ \"./lib/components/App.js\"));\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n_reactDom.default.hydrate(_react.default.createElement(_App.default, null), document.getElementById('root'));//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9saWIvcmVuZGVyZXJzL2RvbS5qcy5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy9saWIvcmVuZGVyZXJzL2RvbS5qcz9mYmYzIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5pbXBvcnQgUmVhY3RET00gZnJvbSAncmVhY3QtZG9tJztcblxuaW1wb3J0IEFwcCBmcm9tICdjb21wb25lbnRzL0FwcCc7XG5cblJlYWN0RE9NLmh5ZHJhdGUoPEFwcCAvPiwgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ3Jvb3QnKSk7XG4iXSwibWFwcGluZ3MiOiI7O0FBQUE7QUFDQTtBQUFBO0FBQ0E7QUFDQTtBQUNBOzs7QUFDQSIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./lib/renderers/dom.js\n");
 
 /***/ }),
 
@@ -4066,14 +4066,14 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 /***/ }),
 
 /***/ 0:
-/*!*******************************************************!*\
-  !*** multi @babel/polyfill ./lib/components/Index.js ***!
-  \*******************************************************/
+/*!****************************************************!*\
+  !*** multi @babel/polyfill ./lib/renderers/dom.js ***!
+  \****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! @babel/polyfill */"./node_modules/@babel/polyfill/lib/index.js");
-module.exports = __webpack_require__(/*! ./lib/components/Index.js */"./lib/components/Index.js");
+module.exports = __webpack_require__(/*! ./lib/renderers/dom.js */"./lib/renderers/dom.js");
 
 
 /***/ })
