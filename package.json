@@ -45,11 +45,11 @@
     "fastify-static": "^0.12.0",
     "lodash": "^4.17.10",
     "lodash.debounce": "^4.0.8",
-    "pm2": "^3.0.0",
+    "pm2": "^4.4.0",
     "point-of-view": "^1.1.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "webpack": "^4.16.0"
+    "webpack": "^4.26.0"
   },
   "jest": {
     "modulePaths": [
